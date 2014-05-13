@@ -87,6 +87,15 @@
     [spotifyBlack setCss:[ApplicationStyle cssNamed:@"spotify-black"]];
     [spotifyBlack setJs:[ApplicationStyle jsNamed:@"spotify-black"]];
     
+    // Create the Spotify Black style.
+    ApplicationStyle *radiantNew = [[ApplicationStyle alloc] init];
+    [spotifyBlack setName:@"Radiant New"];
+    [spotifyBlack setAuthor:@"Natty Coleman"];
+    [spotifyBlack setDescription:@"Totally restyled"];
+    [spotifyBlack setWindowColor:[NSColor colorWithSRGBRed:0.133f green:0.137f blue:0.149f alpha:0.9f]];
+    [spotifyBlack setCss:[ApplicationStyle cssNamed:@"radiant-new"]];
+    [spotifyBlack setJs:[ApplicationStyle jsNamed:@"radiant-new"]];
+    
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
     [dictionary setObject:cocoa forKey:[cocoa name]];
     [dictionary setObject:dark forKey:[dark name]];

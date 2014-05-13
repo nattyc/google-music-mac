@@ -53,7 +53,7 @@ a, .simple-dialog a {
 }
 
 .card {
-    background-color: #555;
+    background-color: #444;
 }
 
 .card .title {
@@ -118,7 +118,7 @@ a, .simple-dialog a {
 }
 
 .song-row.selected-song-row td {
-    color: white !important;
+    color: grey !important;
     background-color: #ff8200 !important;
 }
 
